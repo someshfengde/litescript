@@ -19,6 +19,12 @@ jobs:
 
     - run: pip install build twine
 
+    # Clean dist directory to avoid conflicts with old builds
+    - run: rm -rf dist/*
+
+    # Optionally check the current version
+    - run: python -c "import setuptools_scm; print(setuptools_scm.get_version())"
+
     - run: python -m build
 
     - run: twine check --strict dist/*
