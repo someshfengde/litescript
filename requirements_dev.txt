@@ -5,6 +5,7 @@ watchdog
 tox
 coverage
 sphinx
+sphinx-wagtail-theme
 twine
 ruff
 pytest

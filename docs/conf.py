@@ -33,6 +33,8 @@ import litescript
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
 extensions = ["sphinx.ext.autodoc", "sphinx.ext.viewcode"]
+extensions.append("sphinx_wagtail_theme")
+
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ["_templates"]
@@ -84,7 +86,20 @@ todo_include_todos = False
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = "alabaster"
+html_theme = 'sphinx_wagtail_theme'
+
+
+project = "LiteScript"
+
+# These are options specifically for the Wagtail Theme.
+html_theme_options = dict(
+    project_name = "LiteScript",
+    logo = "./logo.png",
+    logo_alt = "litescript",
+    logo_height = 59,
+    logo_url = "/",
+    logo_width = 45,
+)
 
 # Theme options are theme-specific and customize the look and feel of a
 # theme further.  For a list of options available for each theme, see the

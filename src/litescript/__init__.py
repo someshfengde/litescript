@@ -12,6 +12,7 @@ from .logging_module import setup_logger
 __all__ = [
     "setup_logger",
     "os",
+    "time",
     "sys",
     "json",
     "Path",
