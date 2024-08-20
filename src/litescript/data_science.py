@@ -1,15 +1,13 @@
-"""Top-level package for LiteScript."""
+import numpy as np
+import pandas as pd
 
-__author__ = """Somesh Fengade"""
-__email__ = "someshfengde@gmail.com"
-__version__ = "0.0.1"
-
-
-from .scripting import *
+from .vis_utils import *
 from .logging_module import setup_logger
-
+from .scripting import *
 
 __all__ = [
+    "np",
+    "pd",
     "setup_logger",
     "os",
     "sys",
@@ -22,6 +20,4 @@ __all__ = [
     "Console",
     "Table",
     "rprint",
-    "vis_utils",
-    "data_science",
 ]
