@@ -1,1 +1,2 @@
 litescript
+sphinx-wagtail-theme
