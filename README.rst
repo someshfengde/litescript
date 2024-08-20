@@ -1,7 +1,7 @@
 ==========
 LiteScript
 ==========
-.. image:: ./logo.png
+.. image:: https://github.com/someshfengde/litescript/blob/main/docs/logo.png
 
 .. image:: https://img.shields.io/pypi/v/litescript.svg
         :target: https://pypi.python.org/pypi/litescript
