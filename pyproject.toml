@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "litescript"
 version = "0.0.1"
 description = "Utility package for streamlined Python scripts with logging, common imports, and essential utilities"
-readme = "README.rst"
+readme = "readme.rst"
 authors = [
   {name = "Somesh Fengade", email = "someshfengde@gmail.com"}
 ]
