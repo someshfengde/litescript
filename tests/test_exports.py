@@ -19,4 +19,4 @@ def test_exports():
         "rprint",
         "vis_utils",
         "data_science",
-        } < set(globals())
+    } < set(globals())

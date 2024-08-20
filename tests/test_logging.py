@@ -4,6 +4,7 @@
 
 from litescript import *  # noqa
 
+
 def test_setup_logger():
     logger = setup_logger("test.log")
     logger.info("This is a test log message.")
