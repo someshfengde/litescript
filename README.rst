@@ -6,8 +6,10 @@ LiteScript
 .. image:: https://img.shields.io/pypi/v/litescript.svg
         :target: https://pypi.python.org/pypi/litescript
 
-.. image:: https://img.shields.io/travis/someshfengde/litescript.svg
-        :target: https://travis-ci.com/someshfengde/litescript
+
+.. image:: https://app.travis-ci.com/someshfengde/litescript.svg
+    :target: https://app.travis-ci.com/someshfengde/litescript
+
 
 .. image:: https://readthedocs.org/projects/litescript/badge/?version=latest
         :target: https://litescript.readthedocs.io/en/latest/?version=latest
