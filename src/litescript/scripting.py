@@ -14,7 +14,7 @@ from rich.console import Console
 from rich.table import Table
 from rich import print as rprint
 import time
-import rich 
+import rich
 
 __all__ = [
     "os",
@@ -29,5 +29,5 @@ __all__ = [
     "Console",
     "Table",
     "rprint",
-    "rich"
+    "rich",
 ]
