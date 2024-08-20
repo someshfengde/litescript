@@ -24,7 +24,6 @@ def setup_logger(log_file_name=None):
     logger.addHandler(handler)
     logger.setLevel(logging.DEBUG)
 
-
     # Setting up the FileHandler with the log file path
     file_handler = logging.FileHandler(log_file_path)  # Corrected line
     file_handler.setFormatter(
