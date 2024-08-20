@@ -28,6 +28,8 @@ Utility package for streamlined Python scripts with logging, common imports, and
 * Free software: MIT license
 * Documentation: https://litescript.readthedocs.io.
 
+.. image:: https://github.com/someshfengde/litescript/blob/main/docs/litescript_demo.gif
+
 
 Quickstart
 ----------
