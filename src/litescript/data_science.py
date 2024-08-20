@@ -20,4 +20,5 @@ __all__ = [
     "Console",
     "Table",
     "rprint",
+    "rich",
 ]
