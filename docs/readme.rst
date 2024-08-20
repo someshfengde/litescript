@@ -46,14 +46,16 @@ To use LiteScript in a project::
 
     # listing out directories 
     for dir in glob.glob("*"):
-        logger.info(f"Found directory: {dir}")
+        logger.info(f"-- Found directory: {dir}")
 
     # using tqdm for progress bars
     for i in tqdm(range(10)):
+        logger.info("hii")
         time.sleep(0.1)
 
     # preety print with emojis with help of rich 
-    rprint("Hello, World! :world: :")
+    rprint("Hello, World! :earth_asia:")
+    # Hello, World! 🌏
 
 
 Get data science related imports::

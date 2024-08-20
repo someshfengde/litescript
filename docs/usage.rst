@@ -23,9 +23,9 @@ To use LiteScript in a project:
     for i in tqdm(range(10)):
         time.sleep(0.1)
 
-    # pretty print with emojis with help of rich
-    rprint("Hello, World! :world: :")
-
+    # preety print with emojis with help of rich 
+    rprint("Hello, World! :earth_asia:")
+    # Hello, World! 🌏
 
 
 Get data science related imports:
