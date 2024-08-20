@@ -94,7 +94,8 @@ project = "LiteScript"
 # These are options specifically for the Wagtail Theme.
 html_theme_options = dict(
     project_name="LiteScript",
-    logo="./logo.png",
+    github_url = "https://github.com/someshfengde/litescript/tree/main", 
+    logo = "logo.png",
     logo_alt="litescript",
     logo_height=59,
     logo_url="/",
