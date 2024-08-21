@@ -45,7 +45,7 @@ To use LiteScript in a project::
     logger.debug("This is a debug message")
 
     # listing out directories 
-    for dir in glob.glob("*"):
+    for dir in glob("*"):
         logger.info(f"-- Found directory: {dir}")
 
     # using tqdm for progress bars
