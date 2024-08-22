@@ -16,10 +16,9 @@ LiteScript
         :alt: Documentation Status
 
 
-.. image:: https://pyup.io/repos/github/someshfengde/litescript/shield.svg
-     :target: https://pyup.io/repos/github/someshfengde/litescript/
+.. image:: https://img.shields.io/pypi/dm/litescript
+     :target: https://litescript.readthedocs.io/
      :alt: Updates
-
 
 
 Utility package for streamlined Python scripts with logging, common imports, and essential utilities
